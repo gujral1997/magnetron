@@ -2,6 +2,7 @@
 # django-admin startproject magnetron
 # python manage.py startapp music
 # python manage.py migrate
+# python manage.py makemigrations music  (tells django than changes in music model has been made)
 
 import os
 import sys
