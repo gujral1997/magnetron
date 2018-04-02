@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # django-admin startproject magnetron
-# ython manage.py startapp music
+# python manage.py startapp music
+# python manage.py migrate
 
 import os
 import sys
