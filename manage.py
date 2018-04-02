@@ -5,7 +5,7 @@
 # python manage.py makemigrations music  (tells django than changes in music model has been made)
 # python manage.py sqlmigrate music 0001 (what we did in models.py is created in sql format)
 # python manage.py shell(special django api based shell)
-# Thiings done in shell
+# Things done in shell
     # from music.models import Album, Song
     # Album.objects.all()
     # a = Album(artist ="Taylor Swift", album_title="Red", genre="Country", album_logo="https://is2-ssl.mzstatic.com/image/thumb/Music/v4/46/55/09/465509be-1cb3-8b41-3282-99ef5f73e92d/12UMGIM54089.jpg/268x0w.jpg")
@@ -13,6 +13,9 @@
     # a.id is created automatically
     # b = Album()
     # b.artist = "Myth"
+    # Album.objects.filter(id=2)
+    # Album.objects.filter(artist__startswith='Taylor')
+# python manage.py createsuperuser
 
 
 import os
