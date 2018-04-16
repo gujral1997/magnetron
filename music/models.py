@@ -16,3 +16,6 @@ class Song(models.Model):
     album = models.ForeignKey(Album, on_delete=models.CASCADE) # song is linked to album thats y foreign key used
     file_type = models.CharField(max_length=10)
     song_title = models.CharField(max_length=250)
+
+    def __str__(self):
+        return self.song_title

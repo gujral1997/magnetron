@@ -17,6 +17,14 @@
     # Album.objects.filter(artist__startswith='Taylor')
 # python manage.py createsuperuser
 
+# from.models import Album, Song
+# album1 = Album.objects.get(pk=1)
+# album1.artist
+# song=Song()
+# song.album=album1
+# song.file_type = 'mp3'
+# song.song_title = 'I hate my boyfriend'
+# song.save()
 
 import os
 import sys
